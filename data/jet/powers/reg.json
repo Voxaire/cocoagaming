@@ -95,7 +95,7 @@
 		"entity_action": {
 			"type": "origins:change_resource",
 			"resource": "jet:resource",
-			"change": 5
+			"change": 10
 		}
 	},
 	"pog2": {
