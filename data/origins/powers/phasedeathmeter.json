@@ -6,9 +6,9 @@
 	"hud_render": {
 	"condition":{
 		"type": "origins:resource",
-					"resource": "origins:cloak",
+					"resource": "origins:phasedeath",
 					"comparison": "<=",
-					"compare_to": 130
+					"compare_to": 100
 	},
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",

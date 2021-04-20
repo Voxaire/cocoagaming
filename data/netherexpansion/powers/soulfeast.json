@@ -1,15 +1,16 @@
 {
-	"type": "origins:self_action_on_hit",
-	"name": "Soul Feast",
-	"description": "Energy for the conglomerate.",
-	"entity_action": {
-		"type": "origins:feed",
-		"food": 2,
-		"saturation": 1
-	},
-	"cooldown": 15,
-	"hud_render": {
-		"should_render": true,
-		"bar_index": 2
-}
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:slowness",
+      "amplifier": 3,
+      "duration": 100
+    }
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 5
+  }
 }

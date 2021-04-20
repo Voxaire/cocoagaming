@@ -1,6 +1,8 @@
 {
 	"powers": [
 		"origins:elytra",
+		"origins:launch",
+		"origins:fall",
 		"origins:launch_into_air",
 		"origins:aerial_combatant",
 		"origins:light_armor",

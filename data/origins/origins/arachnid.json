@@ -1,9 +1,12 @@
 {
 	"powers": [
 		"origins:climbing",
+		"origins:eat",
+		"origins:spiderman",
+		"origins:crafting",
 		"origins:master_of_webs",
 		"origins:carnivore",
-		"origins:fragile",
+		"origins:fragilee",
 		"origins:arthropod",
 		"origins:size_mod_dummy"
 	],

@@ -3,7 +3,7 @@
   "loading_priority": 1,
   "modifier": {
     "name": "Extra exhaustion from large appetite",
-    "value": 0.2,
+    "value": 0.05,
     "operation": "multiply_base"
   }
 }
