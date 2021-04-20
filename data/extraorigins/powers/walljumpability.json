@@ -4,25 +4,43 @@
 
 	"description": "By dashing and sprinting, you increase your BOOST. Keep sprinting and dashing and when the meter is full, press your secondary key to enter BOOST MODE! Quick dash recovery and buffs!",
 
-	"key": "secondary",
+	"key": "primary",
 
 	"entity_action": {
 		"type": "origins:if_else",
 		"condition": {
-			"type": "origins:resource",
-			"resource": "extraorigins:walljumpmeter",
-			"comparison": ">=",
-			"compare_to": 0
+			"type": "origins:collided_horizontally"
+
+
 		},
 		"if_action": {
+			"type": "origins:and",
+			"actions": [{
 					"type": "origins:add_velocity",
-					"y": 1
-				
-			
+					"y": 0.2
+				},
+				{
+					"type": "origins:add_velocity",
+					"z": -0.4,
+					"space": "local"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "playsound minecraft:block.basalt.break player @a[distance=..15] ~ ~ ~",
+					"permission_level": 4
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "particle minecraft:poof ~ ~ ~ 0 0 0 1 1 force",
+					"permission_level": 4
 
+				}
+				
+			]
 		}
+
 	},
-	"cooldown": 1,
+	"cooldown": 3,
 	"hud_render": {
 		"should_render": false,
 		"bar_index": 4
