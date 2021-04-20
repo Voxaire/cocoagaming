@@ -1,8 +1,9 @@
 {
   "type": "origins:modify_damage_taken",
+  "loadig_priority": 1,
   "modifier": {
     "name": "Snowball damage taken like Blazes",
-    "value": 3.5,
+    "value": 2,
     "operation": "addition"
   },
   "damage_condition": {

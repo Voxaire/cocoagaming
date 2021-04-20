@@ -9,7 +9,8 @@
 		"origins:damage_from_snowballs",
 		"origins:size_mod_dummy",
 		"origins:lava_vision",
-		"origins:lava_swimming"
+		"origins:lava_swimming",
+		"origins:damage_from_potions"
 	],
 	"icon": "minecraft:blaze_powder",
 	"loading_priority": 1,

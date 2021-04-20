@@ -27,7 +27,24 @@
 					"effect": {
 						"effect": "minecraft:weakness",
 						"duration": 40,
-						"amplifier": 1
+						"amplifier": 2
+					}
+				}
+			},
+			{
+				"type": "origins:if_else",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "origins:g",
+					"comparison": ">",
+					"compare_to": 10
+				},
+				"if_action": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:hunger",
+						"duration": 100,
+						"amplifier": 29
 					}
 				}
 			},
@@ -44,8 +61,39 @@
 					"effect": {
 						"effect": "minecraft:slowness",
 						"duration": 40,
+						"amplifier": 2
+					}
+				}
+			},
+			{
+				"type": "origins:if_else",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "origins:g",
+					"comparison": ">",
+					"compare_to": 10
+				},
+				"if_action": {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:nausea",
+						"duration": 100,
 						"amplifier": 1
 					}
+				}
+			},
+			{
+				"type": "origins:if_else",
+				"condition": {
+					"type": "origins:resource",
+					"resource": "origins:g",
+					"comparison": ">",
+					"compare_to": 10
+				},
+				"if_action": {
+					"type": "origins:feed",
+							"food": -1,
+							"saturation": -2
 				}
 			},
 
@@ -64,7 +112,15 @@
 							"effect": {
 								"effect": "minecraft:speed",
 								"duration": 40,
-								"amplifier": 0
+								"amplifier": 1
+							}
+						},
+						{
+							"type": "origins:apply_effect",
+							"effect": {
+								"effect": "minecraft:hunger",
+								"duration": 60,
+								"amplifier": 4
 							}
 						},
 						{
@@ -73,6 +129,14 @@
 								"effect": "minecraft:strength",
 								"duration": 40,
 								"amplifier": 0
+							}
+						},
+						{
+							"type": "origins:apply_effect",
+							"effect": {
+								"effect": "minecraft:haste",
+								"duration": 40,
+								"amplifier": 1
 							}
 						}
 					]
@@ -91,12 +155,7 @@
 				},
 				"if_action": {
 					"type": "origins:and",
-					"actions": [{
-							"type": "origins:feed",
-							"food": -8,
-							"saturation": -8
-						},
-
+					"actions": [
 						{
 							"type": "origins:change_resource",
 							"resource": "origins:g",

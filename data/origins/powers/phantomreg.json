@@ -40,7 +40,7 @@
 					"if_action": {
 						"type": "origins:change_resource",
 						"resource": "origins:cloak",
-						"change": -20
+						"change": -18
 					}
 				},
 				{
