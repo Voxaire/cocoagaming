@@ -38,11 +38,11 @@
 			"type": "origins:and",
 			"actions": [{
 					"type": "origins:add_velocity",
-					"y": 0.25
+					"y": 0.15
 				},
 				{
 					"type": "origins:add_velocity",
-					"z": -0.65,
+					"z": -0.55,
 					"space": "local"
 				}
 
