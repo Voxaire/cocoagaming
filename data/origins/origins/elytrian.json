@@ -1,6 +1,7 @@
 {
 	"powers": [
 		"origins:elytra",
+		"origins:dropdeath",
 		"origins:launch",
 		"origins:fall",
 		"origins:launch_into_air",

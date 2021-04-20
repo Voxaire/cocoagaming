@@ -1,19 +1,6 @@
 {
 	"powers": [
-            "stalker:invisible",
-            "stalker:invisible_toggle",
-            "stalker:projectilehurt",
-            "stalker:keensight",
-            "stalker:night_energy",
-            "stalker:stealthenergy",
-            "stalker:sweetdiet",
-            "stalker:surprise",
-            "stalker:shortreach",
-            "stalker:sneaky",
-            "stalker:tracking",
-            "stalker:reducedfall",
-            "stalker:climbing",
-            "stalker:climbing_toggle"
+            "stalker:ghost"
 	],
 	"icon": "arrow",
 	"order": 6,
