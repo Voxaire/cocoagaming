@@ -1,7 +1,0 @@
-{
-  "type": "origins:cooldown",
-  "cooldown": 160,
-  "hud_render": {
-    "bar_index": 5
-  }
-}
