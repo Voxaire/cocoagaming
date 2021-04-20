@@ -9,7 +9,28 @@
 	"entity_action": {
 		"type": "origins:if_else",
 		"condition": {
-			"type": "origins:collided_horizontally"
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:collided_horizontally"
+				},
+				{
+					"type": "origins:sneaking",
+					"inverted": true
+				},
+				{
+					"type": "origins:sprinting"
+				},
+				{
+					"type": "origins:submerged_in",
+					"fluid": "minecraft:lava",
+					"inverted": true
+				},
+				{
+					"type": "origins:submerged_in",
+					"fluid": "minecraft:water",
+					"inverted": true
+				}
+			]
 
 
 		},
@@ -17,23 +38,14 @@
 			"type": "origins:and",
 			"actions": [{
 					"type": "origins:add_velocity",
-					"y": 0.1
+					"y": 0.25
 				},
 				{
 					"type": "origins:add_velocity",
-					"z": -0.5,
+					"z": -0.7,
 					"space": "local"
-				},
-				
-				{
-				"type": "origins:apply_effect",
-  "effect": {
-    "effect": "minecraft:speed",
-    "duration": 100,
-    "amplifier": 1
-  }
 				}
-				
+
 			]
 		}
 
