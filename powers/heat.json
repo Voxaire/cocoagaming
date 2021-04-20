@@ -1,0 +1,11 @@
+{
+	"type": "origins:resource",
+	"name": "Heat",
+	"min": 0,
+	"max": 1,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 6
+	},
+	"hidden": true
+}
