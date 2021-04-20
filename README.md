@@ -59,6 +59,8 @@ Special thanks to our testers and players, including:
 
 ###### Pier
 
+###### isak
+
 
 If I missed anyone let me know! A project like this is a group effort, thanks for everything~
 
