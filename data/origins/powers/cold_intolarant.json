@@ -10,8 +10,8 @@
 			"show_particles": false
 		}
 	},
-    "name": "Cold intolarant",
-    "description": "Being in cold biomes makes you slower.",
+    "name": "Cold intolerant",
+    "description": "Overworld is no place for blazes, because of this, you move slower in cold biomes",
     "condition": {
         "type": "origins:biome",
         "biomes": [
