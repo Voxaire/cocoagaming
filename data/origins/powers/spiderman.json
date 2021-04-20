@@ -3,7 +3,7 @@
 	"hidden":true,
     "modifier": {
      "name": "OW",
-     "value": -0.4,
+     "value": -0.5,
      "operation": "multiply_base"
 
     },
