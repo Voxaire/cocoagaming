@@ -1,0 +1,16 @@
+{
+	"type": "origins:multiple",
+	"hidden":true,
+	"two": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource":"origins:cloak",
+			"change":-1
+		},
+		"interval": 10,
+		"condition": {
+			"type": "origins:sprinting"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"powers": [
+            "stalker:invisible",
+            "stalker:invisible_toggle",
+            "stalker:projectilehurt",
+            "stalker:keensight",
+            "stalker:night_energy",
+            "stalker:stealthenergy",
+            "stalker:sweetdiet",
+            "stalker:surprise",
+            "stalker:shortreach",
+            "stalker:sneaky",
+            "stalker:tracking",
+            "stalker:reducedfall",
+            "stalker:climbing",
+            "stalker:climbing_toggle"
+	],
+	"icon": "arrow",
+	"order": 6,
+	"impact": 2,
+	"unchoosable": true,
+	"name": "Stalker",
+	"description": "(UNCHOOSEABLE) All you've ever known is the wild and how to hunt. You adapted and learned how to hide in the darkness, and evolved to become a proficient hunter in every right."
+}

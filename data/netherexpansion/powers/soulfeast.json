@@ -1,0 +1,15 @@
+{
+	"type": "origins:self_action_on_hit",
+	"name": "Soul Feast",
+	"description": "Energy for the conglomerate.",
+	"entity_action": {
+		"type": "origins:feed",
+		"food": 2,
+		"saturation": 1
+	},
+	"cooldown": 15,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 2
+}
+}

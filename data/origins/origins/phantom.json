@@ -1,0 +1,23 @@
+{
+	"powers": [
+		"origins:phantomize",
+		"origins:fix",
+		"origins:phantomreg",
+		"origins:scream",
+		"origins:cloak",
+		"origins:cloake",
+		"origins:excelgay",
+		"origins:translucent",
+		"origins:phasing",
+		"origins:invisibility",
+		"origins:burn_in_daylight",
+		"origins:hunger_over_time",
+		"origins:fragile2",
+		"origins:size_mod_dummy",
+		"origins:phasephall"
+	],
+	"icon": "minecraft:phantom_membrane",
+	"loading_priority": 1,
+	"order": 2,
+	"impact": 3
+}

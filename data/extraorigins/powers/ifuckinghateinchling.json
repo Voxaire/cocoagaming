@@ -1,0 +1,35 @@
+{
+  "type": "origins:attribute",
+  "loading_priority": 1,
+  "hidden":true,
+  "name":"Disclaimer:",
+  "description": "These stats are no longer accurate. Can't fix it for some reason.",
+
+	"modifiers": [
+	 {
+		"name": "Origin modifier",
+		"attribute": "generic.movement_speed",
+		"value": -0.01,
+		"operation": "addition"
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "generic.max_health",
+		"value": -10,
+		"operation": "addition"
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "reach-entity-attributes:attack_range",
+		"value": -0.3,
+		"operation": "addition"
+	  },
+	  {
+		"name": "Origin modifier",
+		"attribute": "reach-entity-attributes:reach",
+		"value": -2,
+		"operation": "addition"
+	  }
+	
+  ]
+}

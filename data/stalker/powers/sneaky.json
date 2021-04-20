@@ -1,0 +1,23 @@
+{
+	"type": "origins:action_over_time",
+	"name": "Sneaky",
+	"description": "When crouching, you are faster.",
+	"interval": 3,
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effects": {
+				"effect": "minecraft:speed",
+				"duration": 10,
+				"is_ambient": true,
+				"amplifier": 0,
+				"show_particles": false,
+				"show_icon": true
+			}
+	},
+  	"condition": {
+				"type": "origins:sneaking",
+				"power": "stalker:invisible_toggle"
+			}
+
+
+	}
