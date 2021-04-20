@@ -1,0 +1,54 @@
+{
+    "type": "origins:active_self",
+    "name": "Surge of Fire",
+    "description": "On use the user becomes set on fire and cannot be extinguished by any means for 10 seconds, any attacks that are not projectiles excluding bow and crossbow shots set targets on fire with the same fire properties as the user for 4 seconds. Due to sudden burst of fire, the user takes 1 heart of damage as recoil on activation.",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:health",
+            "comparison": ">",
+            "compare_to": 2
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:heal",
+                    "amount": -2
+                },
+                {
+                    "type": "origins:exhaust",
+                    "amount": 3
+                },
+                {
+                    "type": "origins:set_on_fire",
+                    "duration": 1
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "blazeborn_rework:heat",
+                    "change": 1
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "blazeborn_rework:counter",
+                    "change": -400
+                },
+                {
+                    "type": "origins:delay",
+                    "ticks": 200,
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "blazeborn_rework:heat",
+                        "change": -1
+                    }
+                }
+            ]
+        }
+    },
+    "cooldown": 600,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 7
+    }
+}

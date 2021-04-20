@@ -1,0 +1,34 @@
+{
+    "type": "origins:action_on_callback",
+    "hidden": true,
+    "entity_action_respawned": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "blazeborn_rework:heat",
+                "change": -1
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "blazeborn_rework:counter",
+                "change": -400
+            }
+        ]
+    },
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "blazeborn_rework:heat",
+                "change": -1
+            },
+            {
+                "type": "origins:change_resource",
+                "resource": "blazeborn_rework:counter",
+                "change": -400
+            }
+        ]
+    }
+}
