@@ -23,5 +23,6 @@
 	],
 	"icon": "minecraft:blaze_powder",
 	"impact": 3,
+	"order": 1,
 	"loading_priority": 1
 }
