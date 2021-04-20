@@ -1,9 +1,0 @@
-{
-	"powers": [
-	"origins:size_mod_dummy"
-	],
-	"icon": "minecraft:player_head",
-	"order": 0,
-	"impact": 0,
-	"loading_priority": 1
-}
