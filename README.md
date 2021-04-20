@@ -55,7 +55,7 @@ Special thanks to our testers and players, including:
 
 ###### TrikiNya
 
-###### Keitsune
+###### Its_Kei
 
 ###### Pier
 
