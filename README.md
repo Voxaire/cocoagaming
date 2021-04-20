@@ -4,59 +4,61 @@ https://discord.gg/jw4vce8Spm for more
 
 
 
-###### Datapacks created by:
+Datapacks created by:
 
 
-Nebulaa
+###### Nebulaa
 
-Voxaire
+###### Voxaire
 
-User_NULL
+###### User_NULL
 
-Bot Cyrox
+###### Bot Cyrox
 
-TheEldritchEcho
+###### TheEldritchEcho
 
-Mr Plague
+###### Mr Plague
 
-Gold_Magikarp
-
-
-
-###### With assistance from:
-
-
-Apace (Creator of Origins mod)
-
-Cocoa (Server owner)
-
-The Origins Discord
+###### Gold_Magikarp
 
 
 
-###### Special thanks to our testers and players, including:
+With assistance from:
 
 
-Excal Sheet
+###### Apace (Creator of Origins mod)
 
-Diamond
+###### Cocoa (Server owner)
 
-Nossea
+###### The Origins Discord
 
-Icarus_Maru
-
-thegreatseba2
-
-iPxter
-
-Komet
-
-TrikiNya
-
-Keitsune
-
-Pier
+###### Ancient Origins
 
 
-###### If I missed anyone let me know! A project like this is a group effort, thanks for everything~
+
+Special thanks to our testers and players, including:
+
+
+###### Excal Sheet
+
+###### Diamond
+
+###### Nossea
+
+###### Icarus_Maru
+
+###### thegreatseba2
+
+###### iPxter
+
+###### Komet
+
+###### TrikiNya
+
+###### Keitsune
+
+###### Pier
+
+
+If I missed anyone let me know! A project like this is a group effort, thanks for everything~
 
