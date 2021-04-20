@@ -1,10 +1,10 @@
 {
 	"type": "origins:resource",
-	"name": "Heat",
+	"name": "Counter",
 	"min": 0,
 	"max": 300,
 	"hud_render": {
-		"should_render": false,
+		"should_render": true,
 		"bar_index": 5
 	},
 	"hidden": true

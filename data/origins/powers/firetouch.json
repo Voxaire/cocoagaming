@@ -7,8 +7,9 @@
     "cooldown": 0,
     "condition": {
         "type": "origins:resource",
-        "resource": "blazeborn_rework:heat",
+        "resource": "origins:heat",
         "comparison": "==",
         "compare_to": 1
-    }
+    },
+    "hidden": true
 }
