@@ -17,23 +17,21 @@
 			"type": "origins:and",
 			"actions": [{
 					"type": "origins:add_velocity",
-					"y": 0.2
+					"y": 0.1
 				},
 				{
 					"type": "origins:add_velocity",
-					"z": -0.4,
+					"z": -0.5,
 					"space": "local"
 				},
+				
 				{
-					"type": "origins:execute_command",
-					"command": "playsound minecraft:block.basalt.break player @a[distance=..15] ~ ~ ~",
-					"permission_level": 4
-				},
-				{
-					"type": "origins:execute_command",
-					"command": "particle minecraft:poof ~ ~ ~ 0 0 0 1 1 force",
-					"permission_level": 4
-
+				"type": "origins:apply_effect",
+  "effect": {
+    "effect": "minecraft:speed",
+    "duration": 100,
+    "amplifier": 1
+  }
 				}
 				
 			]
