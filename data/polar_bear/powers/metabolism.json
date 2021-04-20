@@ -2,6 +2,6 @@
 	"type": "origins:exhaust",
 	"name": "Metabolism",
 	"description": "Having large muscle mass and fat, your body needs a lot more food than usual.",
-	"interval": 140,
-	"exhaustion": 0.812
+	"interval": 100,
+	"exhaustion": 0.712
 }
