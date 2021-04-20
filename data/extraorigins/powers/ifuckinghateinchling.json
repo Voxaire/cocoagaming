@@ -15,7 +15,7 @@
 	  {
 		"name": "Origin modifier",
 		"attribute": "reach-entity-attributes:attack_range",
-		"value": -0.3,
+		"value": -0.4,
 		"operation": "addition"
 	  },
 	  {

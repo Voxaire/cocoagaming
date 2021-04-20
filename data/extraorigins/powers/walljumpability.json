@@ -3,9 +3,9 @@
 	"name": "Secondary: Boostmode",
 
 	"description": "By dashing and sprinting, you increase your BOOST. Keep sprinting and dashing and when the meter is full, press your secondary key to enter BOOST MODE! Quick dash recovery and buffs!",
-	
+
 	"key": "secondary",
-	
+
 	"entity_action": {
 		"type": "origins:if_else",
 		"condition": {
@@ -15,15 +15,10 @@
 			"compare_to": 0
 		},
 		"if_action": {
-		"type":"origins:and",
-		"actions":[
-		{
-		"entity_action": {
-		"type": "origins:add_velocity",
-		"y": 1
-}
-		}
-		]
+					"type": "origins:add_velocity",
+					"y": 1
+				
+			
 
 		}
 	},

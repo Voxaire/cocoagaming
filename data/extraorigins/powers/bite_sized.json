@@ -8,8 +8,8 @@
 	"modifiers": [
 	{
 		"attribute": "minecraft:generic.attack_damage",
-		"operation": "multiply_base",
-		"value": -0.4
+		"operation": "multiply_total",
+		"value": -0.40
 	},
 	  {
 		"name": "Origin modifier",
