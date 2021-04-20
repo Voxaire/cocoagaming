@@ -5,7 +5,8 @@
 		"origins:pumpkin_hate",
 		"origins:extra_reach",
 		"origins:ender_particles",
-		"origins:size_mod_dummy"
+		"origins:size_mod_dummy",
+		"origins:damage_from_potions"
 	],
 	"icon": "minecraft:ender_pearl",
 	"loading_priority": 1,

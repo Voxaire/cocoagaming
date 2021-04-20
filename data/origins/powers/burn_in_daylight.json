@@ -15,12 +15,12 @@
 			{
 				"type": "origins:equipped_item",
 				"equipment_slot": "head",
-				"inverted": true,
 				"item_condition": {
-					"type": "origins:ingredient",
-					"ingredient": {
-						"item": "minecraft:netherite_helmet"
-					}
+					"type": "origins:enchantment",
+                                         "inverted": true,
+					"enchantment": "minecraft:fire_protection",
+                                        "comparison": ">=",
+                                        "compare_to": 1
 				}
 			}
 		]

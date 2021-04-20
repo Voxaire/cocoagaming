@@ -6,7 +6,7 @@
 	"hud_render": {
 	"condition":{
 		"type": "origins:resource",
-					"resource": "origins:phasedeath",
+					"resource": "origins:phasemeter",
 					"comparison": "<=",
 					"compare_to": 100
 	},
