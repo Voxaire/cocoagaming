@@ -6,7 +6,7 @@
         "type": "origins:if_else",
         "condition": {
             "type": "origins:resource",
-            "resource": "blazeborn_rework:heat",
+            "resource": "origins:heat",
             "comparison": "==",
             "compare_to": 1
         },
@@ -14,7 +14,7 @@
             "type": "origins:if_else",
             "condition": {
                 "type": "origins:resource",
-                "resource": "blazeborn_rework:counter",
+                "resource": "origins:counter",
                 "comparison": "<=",
                 "compare_to": 200
             },
@@ -27,7 +27,7 @@
                     },
                     {
                         "type": "origins:change_resource",
-                        "resource": "blazeborn_rework:counter",
+                        "resource": "origins:counter",
                         "change": 1
                     }
                 ]
@@ -37,12 +37,12 @@
                 "actions": [
                     {
                         "type": "origins:change_resource",
-                        "resource": "blazeborn_rework:heat",
+                        "resource": "origins:heat",
                         "change": -1
                     },
                     {
                         "type": "origins:change_resource",
-                        "resource": "blazeborn_rework:counter",
+                        "resource": "origins:counter",
                         "change": -400
                     }
                 ]
@@ -53,12 +53,12 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "blazeborn_rework:heat",
+                    "resource": "origins:heat",
                     "change": -1
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "blazeborn_rework:counter",
+                    "resource": "origins:counter",
                     "change": -400
                 }
             ]
