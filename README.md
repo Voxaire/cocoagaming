@@ -1,10 +1,10 @@
 # cocoagaming
-##This is the datapack we use for Ancient Origins. If you don't know how to install this, you don't need it. 
+## This is the datapack we use for Ancient Origins. If you don't know how to install this, you don't need it. 
 https://discord.gg/jw4vce8Spm for more
 
 
 
-######Datapacks created by:
+###### Datapacks created by:
 
 
 Nebulaa
@@ -23,7 +23,7 @@ Gold_Magikarp
 
 
 
-######With assistance from:
+###### With assistance from:
 
 
 Apace (Creator of Origins mod)
@@ -34,7 +34,7 @@ The Origins Discord
 
 
 
-######Special thanks to our testers and players, including:
+###### Special thanks to our testers and players, including:
 
 
 Excal Sheet
@@ -58,5 +58,5 @@ Keitsune
 Pier
 
 
-######If I missed anyone let me know! A project like this is a group effort, thanks for everything~
+###### If I missed anyone let me know! A project like this is a group effort, thanks for everything~
 
