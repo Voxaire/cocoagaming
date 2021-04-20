@@ -42,7 +42,7 @@
 				},
 				{
 					"type": "origins:add_velocity",
-					"z": -0.7,
+					"z": -0.65,
 					"space": "local"
 				}
 
@@ -50,7 +50,7 @@
 		}
 
 	},
-	"cooldown": 3,
+	"cooldown": 4,
 	"hud_render": {
 		"should_render": false,
 		"bar_index": 4
