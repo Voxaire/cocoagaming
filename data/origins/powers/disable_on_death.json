@@ -12,7 +12,7 @@
             {
                 "type": "origins:change_resource",
                 "resource": "origins:counter",
-                "change": -400
+                "change": -200
             }
         ]
     },
@@ -27,7 +27,7 @@
             {
                 "type": "origins:change_resource",
                 "resource": "origins:counter",
-                "change": -400
+                "change": -200
             }
         ]
     }

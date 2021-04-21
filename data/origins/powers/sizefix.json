@@ -3,7 +3,7 @@
   "hidden": true,
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "function blazeborn_rework:first",
+    "command": "function origins:blaze",
     "permission_level": 4
   },
   "interval": 250
