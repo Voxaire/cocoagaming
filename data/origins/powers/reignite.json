@@ -15,8 +15,8 @@
             "condition": {
                 "type": "origins:resource",
                 "resource": "origins:counter",
-                "comparison": "<=",
-                "compare_to": 200
+                "comparison": ">",
+                "compare_to": 0
             },
             "if_action": {
                 "type": "origins:and",
@@ -28,7 +28,7 @@
                     {
                         "type": "origins:change_resource",
                         "resource": "origins:counter",
-                        "change": 1
+                        "change": -1
                     }
                 ]
             },
@@ -43,7 +43,7 @@
                     {
                         "type": "origins:change_resource",
                         "resource": "origins:counter",
-                        "change": -400
+                        "change": -200
                     }
                 ]
             }
@@ -53,13 +53,13 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "origins:heat",
-                    "change": -1
+                    "resource": "origins:counter",
+                    "change": -200
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "origins:counter",
-                    "change": -400
+                    "resource": "origins:heat",
+                    "change": -1
                 }
             ]
         }
