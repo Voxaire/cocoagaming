@@ -95,7 +95,7 @@
 		"entity_action": {
 			"type": "origins:change_resource",
 			"resource": "jet:resource",
-			"change": 10
+			"change": 12
 		}
 	},
 	"pog2": {
@@ -116,7 +116,7 @@
 		"entity_action": {
 			"type": "origins:change_resource",
 			"resource": "jet:resource",
-			"change": 1
+			"change": 2
 		}
 	},
 	"mom": {
@@ -136,7 +136,7 @@
 				"actions": [{
 						"type": "origins:change_resource",
 						"resource": "jet:resource",
-						"change": 15
+						"change": 23
 					},
 					{
 						"type": "origins:change_resource",
@@ -170,7 +170,7 @@
 
 				"type": "origins:change_resource",
 				"resource": "jet:sickomode",
-				"change": -100
+				"change": -1
 
 
 			}
