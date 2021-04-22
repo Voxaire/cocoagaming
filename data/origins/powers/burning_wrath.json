@@ -1,44 +1,11 @@
 {
-	"type": "origins:multiple",
-	"loading_priority": 1,
-	"name": "Burning Wrath",
-	"description": "You do extra damage while on fire but your hunger drains while burning, press the primary button to set yourself on fire at will.",
-	"burning": {
-		"type": "origins:modify_damage_dealt",
-		"condition": {
-			"type": "origins:on_fire"
-		},
-		"modifier": {
-			"value": 3,
-			"operation": "addition"
-		}
-	},
-	"burnit": {
-		"type": "origins:active_self",
-		"cooldown": 5,
-		"entity_action": {
-			"type": "origins:if_else",
-			"condition": {
-				"type": "origins:on_fire"
-			},
-			"if_action": {
-				"type": "origins:extinguish"
-			},
-			"else_action": {
-				"type": "origins:set_on_fire",
-				"duration": 100000
-			}
-		},
-		"hud_render": {
-			"should_render": false
-		}
-	},
-	"burnexhaust": {
-		"type": "origins:exhaust",
-		"interval": 20,
-		"exhaustion": 0.6,
-		"condition": {
-			"type": "origins:on_fire"
-		}
-	}
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:on_fire"
+  },
+  "modifier": {
+    "name": "Additional damage while on fire",
+    "value": 3,
+    "operation": "addition"
+  }
 }
