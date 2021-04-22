@@ -92,7 +92,7 @@
 		"entity_action": {
 			"type": "origins:change_resource",
 			"resource": "origins:phasemeter",
-			"change": -5
+			"change": -4
 		},
 		"condition": {
 			"type": "origins:power_active",
@@ -106,7 +106,7 @@
 		"entity_action": {
 			"type": "origins:change_resource",
 			"resource": "origins:phasemeter",
-			"change": -17
+			"change": -18
 		},
 		"condition": {
 			"type": "origins:and",
@@ -128,19 +128,6 @@
 					}
 				}
 			]
-		}
-	},
-	"draininsprint": {
-		"type": "origins:action_over_time",
-		"interval": 10,
-		"hidden": true,
-		"entity_action": {
-			"type": "origins:change_resource",
-			"resource": "origins:phasemeter",
-			"change": -3
-		},
-		"condition": {
-			"type":"origins:sprinting"
 		}
 	},
 	"regen": {
