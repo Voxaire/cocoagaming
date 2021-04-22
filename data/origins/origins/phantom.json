@@ -8,7 +8,8 @@
 		"origins:phasing",
 		"origins:invisibility",
 		"origins:burn_in_daylight",
-		"origins:fragile"
+		"origins:fragile",
+"origins:size_mod_dummy"
 	],
 	"icon": "minecraft:phantom_membrane",
         "loading_priority": 1,
