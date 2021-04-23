@@ -71,6 +71,11 @@
                 {
                     "type": "origins:play_sound",
                     "sound": "minecraft:entity.zombie_villager.cure"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle flame ~ ~ ~ 0 1 0 0.75 18",
+                    "permission_level": 4
                 }
             ]
         },

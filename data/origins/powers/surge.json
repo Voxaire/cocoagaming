@@ -1,7 +1,7 @@
 {
     "type": "origins:multiple",
     "name": "Surge of Fire",
-    "description": "On use the user becomes set on fire and cannot be extinguished by most means for 8 seconds. Due to sudden burst of fire, the user takes 1 heart of damage as recoil on activation (not lethal) and hunger for the ability duration. For a couple seconds you feel slow after the effects wear off.",
+    "description": "On use the user becomes set on fire and cannot be extinguished by most means for 10 seconds. Due to sudden burst of fire, the user takes 1 heart of damage as recoil on activation (not lethal) and hunger for the ability duration. For a couple seconds you feel slow after the effects wear off.",
     "heat": {
         "type": "origins:resource",
         "name": "Heat",
@@ -17,7 +17,7 @@
         "type": "origins:resource",
         "name": "Internal Counter",
         "min": 0,
-        "max": 160,
+        "max": 200,
         "hud_render": {
             "should_render": true,
             "bar_index": 7,
@@ -55,11 +55,11 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "origins:surge_counter",
-                    "change": 160
+                    "change": 200
                 },
                 {
                     "type": "origins:delay",
-                    "ticks": 160,
+                    "ticks": 200,
                     "action": {
                         "type": "origins:change_resource",
                         "resource": "origins:surge_heat",
@@ -69,6 +69,11 @@
                 {
                     "type": "origins:play_sound",
                     "sound": "minecraft:entity.blaze.ambient"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle flame ~ ~ ~ 0 1 0 0.1 25",
+                    "permission_level": 4
                 }
             ]
         },
@@ -133,13 +138,13 @@
                         {
                             "type": "origins:change_resource",
                             "resource": "origins:surge_counter",
-                            "change": -160
+                            "change": -200
                         },
                         {
                             "type": "origins:apply_effect",
                             "effect": {
                                 "effect": "minecraft:slowness",
-                                "duration": 60,
+                                "duration": 50,
                                 "amplifier": 1
                             }
                         },
@@ -147,7 +152,7 @@
                             "type": "origins:apply_effect",
                             "effect": {
                                 "effect": "minecraft:mining_fatigue",
-                                "duration": 60,
+                                "duration": 50,
                                 "amplifier": 1
                             }
                         }
@@ -160,7 +165,7 @@
                     {
                         "type": "origins:change_resource",
                         "resource": "origins:surge_counter",
-                        "change": -160
+                        "change": -200
                     },
                     {
                         "type": "origins:change_resource",
@@ -185,7 +190,7 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "origins:surge_counter",
-                    "change": -160
+                    "change": -200
                 }
             ]
         },
@@ -200,7 +205,7 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "origins:surge_counter",
-                    "change": -160
+                    "change": -200
                 },
                 {
                     "type": "origins:change_resource",

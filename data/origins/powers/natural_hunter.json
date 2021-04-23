@@ -9,7 +9,8 @@
         "max": 3,
         "hud_render": {
             "should_render": true,
-            "bar_index": 0,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+            "bar_index": 23,
             "condition": {
                 "type": "origins:resource",
                 "resource": "origins:natural_hunter_excitement",
@@ -254,6 +255,113 @@
             "compare_to": 400
         }
     },
+    "punish": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins:natural_hunter_excitement",
+                    "change": -2
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins:natural_hunter_timer",
+                    "change": -40
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "origins:natural_hunter_excitement",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "if_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "origins:natural_hunter_limit",
+                                "change": -3
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "origins:natural_hunter_timer",
+                                "change": -75
+                            },
+                            {
+                                "type": "origins:change_resource",
+                                "resource": "origins:natural_hunter_cooldown",
+                                "change": -400
+                            },
+                            {
+                                "type": "origins:play_sound",
+                                "sound": "minecraft:entity.cat.hiss"
+                            },
+                            {
+                                "type": "origins:if_else",
+                                "condition": {
+                                    "type": "origins:status_effect",
+                                    "effect": "minecraft:speed",
+                                    "min_amplifier": 0,
+                                    "max_amplifier": 1,
+                                    "min_duration": 0,
+                                    "max_duration": 150
+                                },
+                                "if_action": {
+                                    "type": "origins:clear_effect",
+                                    "effect": "minecraft:speed"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "player"
+        },
+        "target_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:cod",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:salmon",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:pufferfish",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:tropical_fish",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:tropical_fish",
+                    "inverted": true
+                }
+            ]
+        },
+        "cooldown": 0,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "origins:natural_hunter_limit",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
     "apply_speed": {
         "type": "origins:self_action_on_hit",
         "entity_action": {
@@ -263,23 +371,7 @@
                     "condition": {
                         "type": "origins:resource",
                         "resource": "origins:natural_hunter_excitement",
-                        "comparison": "==",
-                        "compare_to": 3
-                    },
-                    "action": {
-                        "type": "origins:apply_effect",
-                        "effect": {
-                            "effect": "minecraft:speed",
-                            "duration": 150,
-                            "amplifier": 2
-                        }
-                    }
-                },
-                {
-                    "condition": {
-                        "type": "origins:resource",
-                        "resource": "origins:natural_hunter_excitement",
-                        "comparison": "==",
+                        "comparison": ">=",
                         "compare_to": 2
                     },
                     "action": {
@@ -399,6 +491,21 @@
                     "type": "origins:play_sound",
                     "sound": "minecraft:entity.cat.purreow",
                     "volume": 2
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:status_effect",
+                        "effect": "minecraft:speed",
+                        "min_amplifier": 0,
+                        "max_amplifier": 1,
+                        "min_duration": 0,
+                        "max_duration": 150
+                    },
+                    "if_action": {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:speed"
+                    }
                 }
             ]
         },
