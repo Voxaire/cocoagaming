@@ -306,7 +306,7 @@
                                     "type": "origins:status_effect",
                                     "effect": "minecraft:speed",
                                     "min_amplifier": 0,
-                                    "max_amplifier": 2,
+                                    "max_amplifier": 1,
                                     "min_duration": 0,
                                     "max_duration": 150
                                 },
@@ -498,7 +498,7 @@
                         "type": "origins:status_effect",
                         "effect": "minecraft:speed",
                         "min_amplifier": 0,
-                        "max_amplifier": 2,
+                        "max_amplifier": 1,
                         "min_duration": 0,
                         "max_duration": 150
                     },
