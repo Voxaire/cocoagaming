@@ -1,5 +1,7 @@
 {
   "type": "origins:attribute",
+  "name": "8 Eyes, 8 Lives",
+  "description": "You are missing 2 hearts",
   "modifier": {
     "name": "Fragile health reduction",
     "attribute": "minecraft:generic.max_health",

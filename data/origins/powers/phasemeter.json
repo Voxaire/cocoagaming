@@ -1,5 +1,7 @@
 {
 	"type": "origins:resource",
+        "name": "Phase Death",
+        "description": "After being phased for some time, you will quickly begin dying until you come out of phase mode.",
 	"min": 0,
 	"max": 1000,
 	"start_value": 1000,
@@ -7,6 +9,5 @@
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"bar_index":7
-	},
-	"hidden": true
+	}
 }
