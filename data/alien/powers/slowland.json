@@ -1,6 +1,6 @@
 {
 	"type": "origins:action_over_time",
-	"name": "Boneless Pizz- I mean no Legs.",
+	"name": "Weak Legs",
 	"description": "You aren't made to walk on land. Its hard for a squid but possible.",
 	"interval": 10,
 	"entity_action": {

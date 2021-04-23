@@ -1,13 +1,12 @@
 {
 	"type": "origins:multiple",
+	"name": "The Bee's Knees",
+	"description": "Bees shake in the rain, unless someone plays jazz.",
 	"sex": {
 		"type": "origins:shaking",
 		"condition": {
 			"type": "origins:in_rain"
-		},
-		"hidden": true,
-		"name": "The Bee's Knees",
-		"description": "Bees shake in the rain, unless someone plays jazz."
+		}
 	},
 	"penis": {
 		"type": "origins:action_over_time",

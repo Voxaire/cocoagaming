@@ -19,8 +19,8 @@
 					"type": "origins:enchantment",
                                          "inverted": true,
 					"enchantment": "minecraft:fire_protection",
-                                        "comparison": ">=",
-                                        "compare_to": 1
+                                        "comparison": "==",
+                                        "compare_to": 4
 				}
 			}
 		]
