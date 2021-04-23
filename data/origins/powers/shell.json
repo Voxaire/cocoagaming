@@ -256,7 +256,7 @@
 				},
 				{
 					"type": "origins:execute_command",
-					"command": "playsound entity.shulker.shoot master Voxaire ~ ~ ~ 1 2",
+					"command": "playsound entity.shulker.shoot master @s ~ ~ ~ 1 2",
 					"permission_level": 4
 				}
 			]
