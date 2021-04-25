@@ -3,13 +3,14 @@
 	"min": 0,
 	"max": 12,
 	"start_value": 0,
+	"hud_render": {
 	"condition": {
 		"type": "origins:resource",
 		"resource": "origins:shellbuild",
-		"comparison": ">=",
-		"compare_to": 1
+		"comparison": "==",
+		"compare_to": 0,
+               "inverted": true
 	},
-	"hud_render": {
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"bar_index": 0

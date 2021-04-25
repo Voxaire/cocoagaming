@@ -1,15 +1,12 @@
 {
   "powers": [
-  "extraorigins:nullify",
   "extraorigins:scream",
   "extraorigins:walljumpmeter",
   "extraorigins:walljumpability",
   "extraorigins:walljumpregen",
-  "extraorigins:ifuckinghateinchling",
 	"extraorigins:bite_sized",
 	"extraorigins:fuckinchling",
 	"extraorigins:nimble",
-	"extraorigins:morenimble",
 	"extraorigins:small_appetite"
   ],
   "icon": "anvil",

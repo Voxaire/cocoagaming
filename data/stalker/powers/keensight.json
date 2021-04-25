@@ -1,0 +1,21 @@
+{
+	"type": "origins:stacking_status_effect",
+	"name": "Keen Sight",
+	"description": "Your keen sight allows you to see in the dark much easier",
+	"min_stacks": 0,
+	"max_stacks": 2,
+	"duration_per_stack": 200,
+	"effects": {
+		"effect": "minecraft:night_vision",
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": true
+	}
+}
+
+
+
+
+
+#by: Voxaire
+#Discord: Voxaire#3808

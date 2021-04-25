@@ -1,0 +1,37 @@
+{
+	"type": "origins:exhaust",
+	"interval": 20,
+        "hidden": true,
+	"exhaustion": 0.3,
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:power_active",
+				"power": "stalker:invisible_toggle"
+			},
+			{
+				"type": "origins:exposed_to_sun",
+				"inverted": "true"
+			},
+			{
+				"type": "origins:brightness",
+				"comparison": "<",
+				"compare_to": 0.15
+			},
+                    {
+		"type": "origins:equipped_item",
+               "inverted": true,
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "stalker:weapons"
+			}
+		}
+	}
+                      
+		]
+
+
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"type": "origins:self_action_when_hit",
 	"name": "Surprise Ink",
-	"cooldown": 300,
+	"cooldown": 500,
 	"description": "Anything that hits you will be temporarily blinded.",
 	"entity_action": {
 		"type": "origins:execute_command",

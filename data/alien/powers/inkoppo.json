@@ -6,7 +6,7 @@
 		"effect": {
 			"effect": "minecraft:blindness",
 			"amplifier": 1,
-			"duration": 120
+			"duration": 200
 		}
 	},
 	"damage_condition": {
@@ -29,7 +29,7 @@
 			}
 		]
 	},
-	"cooldown": 400,
+	"cooldown": 500,
 	"hud_render": {
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
 		"bar_index": 8
