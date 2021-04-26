@@ -1,13 +1,11 @@
 # cocoagaming
-## This is the datapack we use for Ancient Origins. If you don't know how to install this, you don't need it. 
-https://discord.gg/jw4vce8Spm for more
+## This repository holds the latest and newest, not yet released updates to the Ancient Origins Datapack
+https://discord.gg/jw4vce8Spm
 
 
 
 Datapacks created by:
 
-
-###### Nebulaa
 
 ###### Voxaire
 
