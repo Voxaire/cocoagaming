@@ -9,7 +9,7 @@
 		"origins:claustrophobia",
 		"origins:more_kinetic_damage",
 		"origins:size_mod_dummy",
-		"origins:fucking"
+                "origins:chainmail"
 	],
 	"icon": "minecraft:elytra",
 	"order": 3,

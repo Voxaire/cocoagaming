@@ -1,25 +1,25 @@
 {
 	"type": "origins:multiple",
-	"name": "Firesmith",
+	"name": "Light Armor",
 	"description": "You are able to craft chainmail with some effort.",
 	"chainlink": {
 		"type": "origins:recipe",
 		"recipe": {
-		"id": "ender_dragon:chain1",
+		"id": "origins:chainlink",
 			"type": "minecraft:crafting_shapeless",
 			"ingredients": [{
 				"item": "minecraft:chain"
 			}],
 			"result": {
 				"item": "nebchain:chainlink",
-				"count": 2
+				"count": 3
 			}
 		}
 	},
 	"chainmail_plating": {
 		"type": "origins:recipe",
 		"recipe": {
-			"id": "ender_dragon:chain2",
+			"id": "origins:chainlink_plating",
 			"type": "minecraft:crafting_shaped",
 			"pattern": [
 				"# #",
@@ -40,7 +40,7 @@
 	"chain_boots": {
 		"type": "origins:recipe",
 		"recipe": {
-			"id": "ender_dragon:chain3",
+			"id": "origins:chainmail_boots",
 			"type": "minecraft:crafting_shaped",
 			"pattern": [
 				"# #",
@@ -63,11 +63,11 @@
 	"chain_leggings": {
 		"type": "origins:recipe",
 		"recipe": {
-			"id": "ender_dragon:chain4",
+			"id": "origins:chainmail_leggings",
 			"type": "minecraft:crafting_shaped",
 			"pattern": [
-				"#N#",
-				"# #",
+				"N#N",
+				"N N",
 				"N N"
 			],
 			"key": {
@@ -87,10 +87,10 @@
 	"chain_chestplate": {
 		"type": "origins:recipe",
 		"recipe": {
-			"id": "ender_dragon:chain5",
+			"id": "origins:chainmail_chestplate",
 			"type": "minecraft:crafting_shaped",
 			"pattern": [
-				"# #",
+				"N N",
 				"N#N",
 				"#N#"
 			],
@@ -111,16 +111,13 @@
 	"chain_helmet": {
 		"type": "origins:recipe",
 		"recipe": {
-			"id": "ender_dragon:chain6",
+			"id": "origins:chainmail_helmet",
 			"type": "minecraft:crafting_shaped",
 			"pattern": [
-				"###",
+				"NNN",
 				"N N"
 			],
 			"key": {
-				"#": {
-					"item": "nebchain:chainmail_plating"
-				},
 				"N": {
 					"item": "nebchain:chainlink"
 				}
